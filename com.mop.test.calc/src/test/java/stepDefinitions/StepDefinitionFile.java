@@ -17,7 +17,7 @@ public class StepDefinitionFile {
 
 	@Given("user navigates to home page")
 	public void user_navigates_to_home_page() throws InterruptedException {
-		System.setProperty("webdriver.gecko.driver", "D:\\Calc\\chromedriver");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//chromedriver");
 		WebDriver driver = new ChromeDriver();
 		HC = new HomeLoanCalculatorObjects(driver);
 		driver.get("https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/");
