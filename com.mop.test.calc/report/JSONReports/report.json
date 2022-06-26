@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-26T17:06:54.864Z",
+        "line": 3,
+        "name": "Checking the loan calculator working properly using valid inputs",
+        "description": "",
+        "id": "home-loan-calculator;checking-the-loan-calculator-working-properly-using-valid-inputs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1499000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to home page",
+            "match": {
+              "location": "stepDefinitions.StepDefinitionFile.user_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on home page",
+            "match": {
+              "location": "stepDefinitions.StepDefinitionFile.user_lands_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User inputs data to check the functionality of the calculator",
+            "match": {
+              "location": "stepDefinitions.StepDefinitionFile.user_inputs_data_to_check_the_functionality_of_the_calculator()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home loan Calculator",
+    "description": "",
+    "id": "home-loan-calculator",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/homeloancalculator.feature",
+    "tags": []
+  }
+]
